@@ -1,0 +1,24 @@
+/* Slide from left */
+.sliderLeftTransition-enter {
+    transform-origin: left;
+    opacity: 0;
+    transform: scaleX(0);
+}
+
+.sliderLeftTransition-enter-active {
+    opacity: 1;
+    transform: scaleX(1);
+    transition: opacity 400ms, transform 400ms;
+}
+
+.sliderLeftTransition-exit {
+    transform-origin: left;
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+.sliderLeftTransition-exit-active {
+    opacity: 0;
+    transform: scaleX(0);
+    transition: opacity 400ms, transform 400ms;
+}
