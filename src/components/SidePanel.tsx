@@ -34,9 +34,9 @@ export default function SidePanel() {
                                 <input 
                                     type="text" 
                                     name="place" 
-                                    className="flex-grow bg-white border-0 focus:border-zinc-400 focus:ring-0 focus:outline-none py-2 px-4" />
+                                    className="w-[75%] text-sm bg-white border-0 focus:border-zinc-400 focus:ring-0 focus:outline-none py-2 px-4" />
 
-                                <div className="flex items-center text-zinc-500 px-2 bg-white divide-x divide-zinc-300 w-auto">
+                                <div className="flex items-center text-zinc-500 bg-white divide-x divide-zinc-300 w-[25%]">
                                     <span className="pr-2.5 cursor-pointer">
                                         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
